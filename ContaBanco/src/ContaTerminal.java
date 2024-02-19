@@ -35,7 +35,6 @@ public class ContaTerminal {
             }
         
         scanner.close();
-
-
+        
     }
 }
