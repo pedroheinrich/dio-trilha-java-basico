@@ -16,7 +16,7 @@ public class ContaTerminal {
         System.out.println("Agora digite o número da Conta Bancária: ");
         conta = scanner.nextInt();
 
-        System.out.printf("Oá, %s, obrigado por criar uma conta em nosso banco, sua agência é %d, conta %d e seu saldo é R$ %f já está disponível para saque.\n\n\n", nomedoCliente, agencia, conta, saldo);
+        System.out.printf("Oá, %s, obrigado por criar uma conta em nosso banco, sua AGÊNCIA é %d, CONTA %d e seu SALDO é R$ %.2f já está disponível para saque.\n\n\n", nomedoCliente, agencia, conta, saldo);
         System.out.println("1 - Consultar saldo\n");
         System.out.println("2 - Sair\n");
 
@@ -25,7 +25,7 @@ public class ContaTerminal {
         
         switch(opcao) {
             case 1:
-                System.out.printf("Seu saldo é: R$ %.2f%n\n", saldo);
+                System.out.printf("Seu saldo é: R$ %f%n\n", saldo);
                 break;
             case 2:
                 System.out.println("Saindo do sistema...\n\n\n");
